@@ -2900,19 +2900,19 @@
     regenerator-runtime "^0.13.7"
     ts-dedent "^2.0.0"
 
-"@storybook/addon-interactions@^6.4.0":
-  version "6.4.0"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-interactions/-/addon-interactions-6.4.0.tgz#06f594a397c46da88daac39a5fe68557497fc662"
-  integrity sha512-EhxknwdXlhqC8QWa41rZ7+oM4us+psETnCORB6Rjkh0kF2RtbdxeJVVPz4L/Qah0veCCSCYn5eNVd+5B2Og3SA==
+"@storybook/addon-interactions@^6.4.9":
+  version "6.4.9"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-interactions/-/addon-interactions-6.4.9.tgz#17ebe1e400262c8ea76cb1ab18096d907fe31e31"
+  integrity sha512-J4Q8kHF58UJ3P7JLYBRFMmqKzTRCt6dlml3sOKrrUpmuwFrl+VYtV4Vk2tZKUkvj0iT+tc/8gIGMwquvWGCtTw==
   dependencies:
-    "@storybook/addons" "6.4.0"
-    "@storybook/api" "6.4.0"
-    "@storybook/components" "6.4.0"
-    "@storybook/core-common" "6.4.0"
-    "@storybook/core-events" "6.4.0"
+    "@storybook/addons" "6.4.9"
+    "@storybook/api" "6.4.9"
+    "@storybook/components" "6.4.9"
+    "@storybook/core-common" "6.4.9"
+    "@storybook/core-events" "6.4.9"
     "@storybook/csf" "0.0.2--canary.87bc651.0"
-    "@storybook/instrumenter" "6.4.0"
-    "@storybook/theming" "6.4.0"
+    "@storybook/instrumenter" "6.4.9"
+    "@storybook/theming" "6.4.9"
     global "^4.4.0"
     jest-mock "^27.0.6"
     polished "^4.0.5"
@@ -3858,16 +3858,6 @@
   dependencies:
     lodash "^4.17.15"
 
-"@storybook/instrumenter@6.4.0":
-  version "6.4.0"
-  resolved "https://registry.yarnpkg.com/@storybook/instrumenter/-/instrumenter-6.4.0.tgz#bc42a167fe1c2497eedbc97423f2f5181a1e1905"
-  integrity sha512-QaDJH6AJUeslxIgUzyZg9gTrwfFVCbRLpj/tnsot7ph/dt7/7JPOhbb7xyeJ9iFxoYKYJ8OR0hzIpuzhQxrVrQ==
-  dependencies:
-    "@storybook/addons" "6.4.0"
-    "@storybook/client-logger" "6.4.0"
-    "@storybook/core-events" "6.4.0"
-    global "^4.4.0"
-
 "@storybook/instrumenter@6.4.0-rc.5":
   version "6.4.0-rc.5"
   resolved "https://registry.yarnpkg.com/@storybook/instrumenter/-/instrumenter-6.4.0-rc.5.tgz#eef42e84b441f0df21bdf3fd67b26059b1c0a61f"
@@ -3876,6 +3866,16 @@
     "@storybook/addons" "6.4.0-rc.5"
     "@storybook/client-logger" "6.4.0-rc.5"
     "@storybook/core-events" "6.4.0-rc.5"
+    global "^4.4.0"
+
+"@storybook/instrumenter@6.4.9":
+  version "6.4.9"
+  resolved "https://registry.yarnpkg.com/@storybook/instrumenter/-/instrumenter-6.4.9.tgz#fde8e6ad54e357e718936ed28ad2b09b7e821afd"
+  integrity sha512-mz56gJSgyjdxgLHkE7aFeWpPL7m81VPgIAmv0nLt2VEYTJRiUg2aIbCF7xLt3feYbpHe0RSqQiCjFuYW4omhrw==
+  dependencies:
+    "@storybook/addons" "6.4.9"
+    "@storybook/client-logger" "6.4.9"
+    "@storybook/core-events" "6.4.9"
     global "^4.4.0"
 
 "@storybook/manager-webpack4@6.4.0":
